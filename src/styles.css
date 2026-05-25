@@ -1,0 +1,28 @@
+body {
+  background-color: #f8dce7;
+  font-family: "Nunito", sans-serif;
+  color: #f8dce7;
+}
+
+h1 {
+  margin: 0px;
+}
+
+.container {
+  background-color: #6d1548;
+  border: 3px solid #5a3238;
+  border-radius: 20px;
+  padding: 16px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+/* world clock — mobile palette on list layout
+--bg-page: #6D1548;
+--bg-card: #3B2020;
+--text-primary: #F8DCE7;
+--text-secondary: #B89098;
+--border: #5A3238;
+--row-selected-bg: #F8DCE7;
+--row-selected-text: #8B1030;
+--row-selected-muted: #C4748A; */
