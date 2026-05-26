@@ -1,22 +1,61 @@
 body {
   background-color: #f8dce7;
-  font-family: "Nunito", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #f8dce7;
 }
 
 h1 {
-  margin: 0px;
+  margin: 0 0 16px 0;
+  text-align: center;
+}
+
+select {
+  background-color: #352121;
+  color: #af9298;
+  border-radius: 4px;
+  padding: 10px;
 }
 
 .container {
   background-color: #6d1548;
   border: 3px solid #5a3238;
   border-radius: 20px;
-  padding: 16px;
+  padding: 20px;
   margin: 0 auto;
-  max-width: 70%;
+  min-width: none;
+  max-width: 30%;
 }
 
+.display-time {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0px;
+}
+
+.city {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 6px;
+}
+
+.country,
+.date {
+  font-size: 14px;
+  font-weight: 500;
+  color: #b89098;
+}
+
+.time-element {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+footer {
+  font-size: 13px;
+  padding-top: 20px;
+}
 /* world clock — mobile palette on list layout
 --bg-page: #6D1548;
 --bg-card: #3B2020;
