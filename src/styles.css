@@ -37,6 +37,7 @@ select {
   border-radius: 20px;
   padding: 20px;
   margin: 0 auto;
+  box-shadow: 0px 10px 15px #af9298;
 }
 
 .display-time {
