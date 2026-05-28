@@ -59,6 +59,12 @@ select {
   color: #b89098;
 }
 
+.AM-PM {
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 7px;
+}
+
 .time-element {
   display: flex;
   align-items: center;
