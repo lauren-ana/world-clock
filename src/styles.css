@@ -1,13 +1,14 @@
 html,
 body {
   height: 100%;
+  margin: 0 auto;
 }
 
 body {
   background-color: #f8dce7;
-  font-family: "Inter", sans-serif;
   color: #f8dce7;
   display: flex;
+  font-family: "Inter", sans-serif;
   align-items: center;
   justify-content: center;
 }
@@ -35,9 +36,8 @@ select {
   background-color: #6d1548;
   border: 3px solid #5a3238;
   border-radius: 20px;
-  padding: 20px;
-  margin: 0 auto;
   box-shadow: 0px 10px 15px #af9298;
+  padding: 20px;
 }
 
 .display-time {
@@ -52,11 +52,15 @@ select {
   padding-bottom: 6px;
 }
 
-.country,
-.date {
+.country {
   font-size: 14px;
   font-weight: 500;
   color: #b89098;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .AM-PM {
@@ -72,6 +76,21 @@ select {
   font-weight: 600;
 }
 
+.date {
+  display: none;
+}
+
+.display-time.selected .date {
+  display: block;
+}
+
+.display-time.selected {
+  background-color: #f8dce7;
+  border-radius: 6px;
+  padding: 6px 4px;
+  color: #8b1030;
+}
+
 a:link,
 a:visited {
   color: #b89098;
@@ -83,12 +102,3 @@ footer {
   padding-top: 20px;
   text-align: center;
 }
-/* world clock — mobile palette on list layout
---bg-page: #6D1548;
---bg-card: #3B2020;
---text-primary: #F8DCE7;
---text-secondary: #B89098;
---border: #5A3238;
---row-selected-bg: #F8DCE7;
---row-selected-text: #8B1030;
---row-selected-muted: #C4748A; */
